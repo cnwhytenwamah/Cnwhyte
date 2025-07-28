@@ -25,7 +25,7 @@
 <body class="bg-white text-gray-800 leading-relaxed min-h-screen flex flex-col font-sans">
 
     <!-- Header -->
-    @include('components.nav')
+    @include('front-pages.components.nav')
 
     <!-- Main Content -->
     <main class="container mx-auto px-4">
@@ -33,7 +33,7 @@
     </main>
 
     <!-- Footer -->
-
+    @include('front-pages.components.footer')
 
 </body>
 </html>
