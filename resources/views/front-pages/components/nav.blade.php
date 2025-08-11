@@ -18,7 +18,7 @@
                 <a href="#" class="hover:text-yellow-400">Portfolio</a>
                 <a href="#" class="hover:text-yellow-400">Service</a>
                 <a href="#" class="hover:text-yellow-400">Blog</a>
-                <a href="#" class="hover:text-yellow-400">Contact Us</a>
+                <a href="{{route('contact-me')}}" class="hover:text-yellow-400">Contact Us</a>
             </nav>
 
             <!-- Mobile Menu Button -->
@@ -34,7 +34,7 @@
                 <a href="#" class="hover:text-yellow-400">Portfolio</a>
                 <a href="#" class="hover:text-yellow-400">Service</a>
                 <a href="#" class="hover:text-yellow-400">Blog</a>
-                <a href="#" class="hover:text-yellow-400">Contact Us</a>
+                <a href="{{route('contact-me')}}" class="hover:text-yellow-400">Contact Us</a>
             </div>
         </div>
 

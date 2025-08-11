@@ -31,20 +31,20 @@
 					</li>
 					<li class="nav-item">
 						<a data-toggle="collapse" href="#base">
-							<i class="fas fa-list"></i>
-							<p>Positions</p>
+							<i class="fas fa-newspaper"></i>
+							<p>Blogs</p>
 							<span class="caret"></span>
 						</a>
 						<div class="collapse" id="base">
 							<ul class="nav nav-collapse">
 								<li>
-									<a href="">
-										<span class="sub-item">Add Positions</span>
+									<a href="{{route('admin.add-blog')}}">
+										<span class="sub-item">Add Blogs</span>
 									</a>
 								</li>
 								<li>
-									<a href="components/buttons.html">
-										<span class="sub-item">List Positions</span>
+									<a href="">
+										<span class="sub-item">List Blogs</span>
 									</a>
 								</li>
 							</ul>
